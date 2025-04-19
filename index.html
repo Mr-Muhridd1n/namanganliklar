@@ -116,8 +116,8 @@
       </section>
       <section class="news">
         <div class="news__container container">
-          <ul class="news__list">
-            <li class="news__item">
+          <div class="news__list">
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Кандидат на пост канцлера ФРГ Шольц назвал условия
@@ -146,8 +146,8 @@
                   >
                 </p>
               </div>
-            </li>
-            <li class="news__item">
+            </article>
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Ученые доказали экспериментальным путем пользу покровных
@@ -176,8 +176,8 @@
                   >
                 </p>
               </div>
-            </li>
-            <li class="news__item">
+            </article>
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Baidu запустила публичный сервис роботакси Apollo Go в Шанхае
@@ -205,8 +205,8 @@
                   >
                 </p>
               </div>
-            </li>
-            <li class="news__item">
+            </article>
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Стали известны ёмкости аккумуляторов всех моделей iPhone 13
@@ -234,8 +234,8 @@
                   >
                 </p>
               </div>
-            </li>
-            <li class="news__item">
+            </article>
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Nature: ученые смогли доказать природное происхождение
@@ -264,8 +264,8 @@
                   >
                 </p>
               </div>
-            </li>
-            <li class="news__item">
+            </article>
+            <article class="news__item">
               <a href="#" class="news__content">
                 <h2>
                   Китайская марка JAC повысила цены на лифтбек и пикап в России
@@ -292,24 +292,24 @@
                   <time datetime="10:44" class="official__time">10:44</time>
                 </p>
               </div>
-            </li>
-          </ul>
+            </article>
+          </div>
         </div>
       </section>
-      <section class="notification">
+      <aside class="notification">
         <div class="notification__container">
           <h2 class="notification__caption">
             Хотите быть в курсе свежих новостей? Включите уведомления!
           </h2>
           <a href="#" class="btn notification__btn">Включит</a>
         </div>
-      </section>
+      </aside>
       <section class="in-the-world">
         <div class="in-the-world__container container">
           <h2 class="in-the-world__title">В мире</h2>
           <div class="in-the-world__content">
-            <ul class="in-the-world__left-content">
-              <li class="in-the-world__left-item">
+            <div class="in-the-world__left-content">
+              <article class="in-the-world__left-item">
                 <img
                   src="./images/planet.png"
                   alt="The plane is flying in the sky."
@@ -345,8 +345,8 @@
                     </p>
                   </div>
                 </div>
-              </li>
-              <li class="in-the-world__left-item">
+              </article>
+              <article class="in-the-world__left-item">
                 <img
                   src="./images/markel.png"
                   alt="Markel is getting out of his car"
@@ -382,8 +382,8 @@
                     </p>
                   </div>
                 </div>
-              </li>
-              <li class="in-the-world__left-item">
+              </article>
+              <article class="in-the-world__left-item">
                 <img
                   src="./images/chinese-market.png"
                   alt="A picture from the time of the Chinese campaign"
@@ -419,8 +419,8 @@
                     </p>
                   </div>
                 </div>
-              </li>
-              <li class="in-the-world__left-item">
+              </article>
+              <article class="in-the-world__left-item">
                 <img
                   src="./images/chineflag.png"
                   alt="chine flag image"
@@ -457,17 +457,19 @@
                     </p>
                   </div>
                 </div>
-              </li>
-              <li class="in-the-world__left-item view-all">
+              </article>
+              <article class="in-the-world__left-item view-all">
                 <a class="view-all-link" href="./pages/list.html"
                   >Показать ещё</a
                 >
-              </li>
-            </ul>
+              </article>
+            </div>
 
             <div class="in-the-world__right-content">
-              <h2 class="in-the-world__right__title">Главное</h2>
               <ul class="in-the-world__right-list">
+                <li>
+                  <h2 class="in-the-world__right__title">Главное</h2>
+                </li>
                 <li class="in-the-world__right-item">
                   <a href="">
                     <h2 class="in-the-world__right-item__title">
@@ -547,7 +549,9 @@
                 <a href="#" class="footer_content-link">Информация о сайте</a>
               </li>
               <li class="footer_content-links-item">
-                <a href="#" class="footer_content-link">Напишите нам</a>
+                <a href="./pages/contact.html" class="footer_content-link"
+                  >Напишите нам</a
+                >
               </li>
               <li class="footer_content-links-item">
                 <a href="#" class="footer_content-link">Реклама</a>

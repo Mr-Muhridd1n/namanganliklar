@@ -205,6 +205,10 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+
+  img {
+    border-radius: $b-r-5;
+  }
 }
 .in-the-world__left-official__title {
   display: flex;
@@ -243,7 +247,6 @@
 }
 .in-the-world__right-list {
   padding-top: 2rem;
-  //   padding-bottom: 2.5rem;
   padding-left: 1.7rem;
   padding-right: 1.7rem;
   background-color: $colornav;
@@ -251,9 +254,10 @@
   width: 100%;
   max-width: 393px;
   margin-bottom: $mb-10;
+  border: 1px solid #d2d2d2;
 }
 .in-the-world__right-item {
-  padding-bottom: $mb-20;
+  padding-bottom: 2rem;
 
   &:hover {
     h2 {
@@ -261,9 +265,9 @@
     }
   }
 
-  &:nth-child(1),
   &:nth-child(2),
-  &:nth-child(3) {
+  &:nth-child(3),
+  &:nth-child(4) {
     border-bottom: 1px solid $colorfooter-line;
     margin-bottom: $mb-20;
   }

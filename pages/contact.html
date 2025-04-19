@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Namanganliklar | Наука</title>
+    <title>Namanganliklar | Напишите нам</title>
   </head>
   <link rel="stylesheet" href="../css/main.min.css" />
   <body>
@@ -37,10 +37,14 @@
             </form>
 
             <div class="sinenav__container-right__lang">
-              <a class="sinenav__container-right__lang-uz lang_active" href="#"
+              <a
+                class="sinenav__container-right__lang-uz lang_active"
+                href="./culture.html"
                 >УЗ</a
               >
-              <a class="sinenav__container-right__lang-ru" href="#">РУ</a>
+              <a class="sinenav__container-right__lang-ru" href="./culture.html"
+                >РУ</a
+              >
             </div>
             <a href="#" class="btn sinenav__container-right__btn">Войти</a>
           </div>
@@ -74,7 +78,11 @@
             <a href="./sport.html" class="sitelink__list-link">Спорт</a>
           </li>
           <li class="sitelink__list_item">
-            <a href="./culture.html" class="sitelink__list-link">Культура</a>
+            <a
+              href="./culture.html"
+              class="sitelink__list-link sitelink__list-link-active"
+              >Культура</a
+            >
           </li>
           <li class="sitelink__list_item">
             <a href="./incidents.html" class="sitelink__list-link"
@@ -82,16 +90,74 @@
             >
           </li>
           <li class="sitelink__list_item">
-            <a
-              href="./science.html"
-              class="sitelink__list-link sitelink__list-link-active"
-              >Наука</a
-            >
+            <a href="./science.html" class="sitelink__list-link">Наука</a>
           </li>
         </ul>
       </div>
     </header>
-    <main></main>
+    <main class="main">
+      <section class="contact__section">
+        <div class="contact__container container">
+          <div class="contact-left">
+            <h2 class="contact-left-title">Напишите нам</h2>
+            <form action="" class="contact__form">
+              <input
+                class="contact__form-name"
+                type="text"
+                name=""
+                id=""
+                placeholder="Имя"
+              />
+              <input
+                class="contact__form-number"
+                type="number"
+                name=""
+                id=""
+                placeholder="Номер телефона"
+              />
+              <input
+                class="contact__form-email"
+                type="email"
+                name=""
+                id=""
+                placeholder="Электронная почта"
+              />
+              <textarea
+                class="contact__form-textarea"
+                type="text"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Текст"
+              ></textarea>
+              <input
+                class="contact__form-btn btn"
+                id="contact__form-btn"
+                type="submit"
+                placeholder="Отправить"
+              />
+            </form>
+          </div>
+          <div class="contact-right">
+            <div class="contact__info">
+              <div class="contact__info-item">
+                <h3>Электронная почта</h3>
+                <p>info@namanganliklar24.uz</p>
+              </div>
+              <div class="contact__info-item">
+                <h3>Номер телефона</h3>
+                <p>+998 88 522-54-76</p>
+              </div>
+              <div class="contact__info-item">
+                <h3>Адрес</h3>
+                <p>Ташкент, площадь Мустакиллик, 6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__contents">
@@ -107,7 +173,7 @@
                 <a href="#" class="footer_content-link">Информация о сайте</a>
               </li>
               <li class="footer_content-links-item">
-                <a href="../pages/contact.html" class="footer_content-link"
+                <a href="./contact.html" class="footer_content-link"
                   >Напишите нам</a
                 >
               </li>
