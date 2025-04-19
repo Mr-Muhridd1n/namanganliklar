@@ -94,8 +94,10 @@
     margin-bottom: 0.7rem;
   }
 
-  p {
+  p,
+  a {
     font-size: $fs-16;
     margin-bottom: $mb-20;
+    color: $colorblack;
   }
 }
